@@ -6,6 +6,7 @@
 #define MyAppPublisher "Hämmer Electronics"
 #define MyAppURL "www.softwareload24.de.tl"
 #define MyAppExeName "GitInitHandler.exe"
+#define MyPath "F:\TODO\C# und VB\GitInitHandler"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -25,10 +26,10 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
-LicenseFile=C:\Users\tim\Desktop\GitInitHandler\License.txt
-OutputDir=C:\Users\tim\Desktop\GitInitHandler\Setup
+LicenseFile={#MyPath}\License.txt
+OutputDir={#MyPath}\Setup
 OutputBaseFilename=GitInitHandler-Setup
-SetupIconFile=C:\Users\tim\Desktop\GitInitHandler\GitInitHandler\bin\Debug\Git.ico
+SetupIconFile={#MyPath}\GitInitHandler\bin\Debug\Git.ico
 Compression=lzma
 SolidCompression=yes
 
@@ -41,8 +42,8 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 0,6.1
 
 [Files]
-Source: "C:\Users\tim\Desktop\GitInitHandler\GitInitHandler\bin\Debug\GitInitHandler.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\tim\Desktop\GitInitHandler\GitInitHandler\bin\Debug\License.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyPath}\GitInitHandler\bin\Debug\GitInitHandler.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyPath}\GitInitHandler\bin\Debug\License.txt"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
