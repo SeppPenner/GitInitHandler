@@ -2,11 +2,11 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "GitInitHandler"
-#define MyAppVersion "1.0.0.0"
+#define MyAppVersion "1.0.0.1"
 #define MyAppPublisher "Hämmer Electronics"
 #define MyAppURL "www.softwareload24.de.tl"
 #define MyAppExeName "GitInitHandler.exe"
-#define MyPath "F:\TODO\C# und VB\GitInitHandler"
+#define MyPath "C:\Users\tim\Desktop\Updaten_Snyk\GitInitHandler"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
