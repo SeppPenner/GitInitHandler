@@ -42,6 +42,7 @@ Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescrip
 
 [Files]
 Source: "..\src\GitInitHandler\bin\Release\net5.0-windows\GitInitHandler.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\src\GitInitHandler\bin\Release\net5.0-windows\GitInitHandler.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\src\GitInitHandler\bin\Release\net5.0-windows\License.txt"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
