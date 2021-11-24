@@ -2,7 +2,6 @@ GitInitHandler
 ===============
 
 GitInitHandler is an executable to run the 'git init' command when a file from the concerned folder is drag'n'dropped onto the exe.
-The executable is written and tested in .Net 5.0.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/qxlolyonkcf53ouj?svg=true)](https://ci.appveyor.com/project/SeppPenner/gitinithandler)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/GitInitHandler.svg)](https://github.com/SeppPenner/GitInitHandler/issues)
